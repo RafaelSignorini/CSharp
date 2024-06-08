@@ -20,6 +20,7 @@ namespace CSharp.Básico
                 Console.WriteLine("7. Tabuada");
                 Console.WriteLine("8. Pintando a parede");
                 Console.WriteLine("9. Calculando descontos");
+                Console.WriteLine("10. Reajuste salarial");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -53,6 +54,9 @@ namespace CSharp.Básico
                             break;
                         case 9:
                             Exe09.Execute();
+                            break;
+                        case 10:
+                            Exe10.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
