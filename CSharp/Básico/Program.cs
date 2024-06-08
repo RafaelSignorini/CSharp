@@ -26,6 +26,7 @@ namespace CSharp.Básico
                 Console.WriteLine("13. Condições simples, nota");
                 Console.WriteLine("14. Jogo do adivinha");
                 Console.WriteLine("15. Leitor da velocidade de carros");
+                Console.WriteLine("16. Par ou ímpar");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -77,6 +78,9 @@ namespace CSharp.Básico
                             break;
                         case 15:
                             Exe15.Execute();
+                            break;
+                        case 16:
+                            Exe16.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
