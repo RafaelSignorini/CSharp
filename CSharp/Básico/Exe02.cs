@@ -6,10 +6,16 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Variáveis
-            string nome = "Guanabara";
-            int idade = 25;
-            double peso = 75.8;
+            // Variáveis interativas
+            Console.Write("Qual é o seu nome? ");
+            string nome = Console.ReadLine();
+
+            Console.Write("Qual é a sua idade? ");
+            int idade = int.Parse(Console.ReadLine());
+
+            Console.Write("Qual é o seu peso? ");
+            double peso = double.Parse(Console.ReadLine());
+
             Console.WriteLine($"{nome}, {idade}, {peso}");
         }
     }

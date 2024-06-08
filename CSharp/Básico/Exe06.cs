@@ -6,15 +6,21 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Média aritmética
-            Console.WriteLine("Insira um valor inteiro entre 0 e 10: ");
-            int num1 = int.Parse(Console.ReadLine());
+            // Tabuada
+            Console.WriteLine("Insira um número inteiro para saber sua tabuada: ");
+            int num = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Insira mais um valor inteiro entre 0 e 10: ");
-            int num2 = int.Parse(Console.ReadLine());
-
-            float media = (num1 + num2) / 2;
-            Console.WriteLine($"A média aritmética dos dois valores é {media}");
+            Console.WriteLine($"A tabuada de {num} é a seguinte: ");
+            Console.WriteLine($"{num} x 1 = {num}");
+            Console.WriteLine($"{num} x 2 = {num * 2}");
+            Console.WriteLine($"{num} x 3 = {num * 3}");
+            Console.WriteLine($"{num} x 4 = {num * 4}");
+            Console.WriteLine($"{num} x 5 = {num * 5}");
+            Console.WriteLine($"{num} x 6 = {num * 6}");
+            Console.WriteLine($"{num} x 7 = {num * 7}");
+            Console.WriteLine($"{num} x 8 = {num * 8}");
+            Console.WriteLine($"{num} x 9 = {num * 9}");
+            Console.WriteLine($"{num} x 10 = {num * 10}");
         }
     }
 }

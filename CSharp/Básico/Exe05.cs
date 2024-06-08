@@ -6,14 +6,15 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Somas básicas
-            Console.WriteLine("Insira um número: ");
-            float num1 = float.Parse(Console.ReadLine());
+            // Média aritmética
+            Console.WriteLine("Insira um valor inteiro entre 0 e 10: ");
+            int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Insira mais um número: ");
-            float num2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Insira mais um valor inteiro entre 0 e 10: ");
+            int num2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            float media = (num1 + num2) / 2;
+            Console.WriteLine($"A média aritmética dos dois valores é {media}");
         }
     }
 }

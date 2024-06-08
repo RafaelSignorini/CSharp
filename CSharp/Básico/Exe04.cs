@@ -6,10 +6,14 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // formatted strings / fstrings
-            Console.WriteLine("Insira seu nome: ");
-            string nome = Console.ReadLine();
-            Console.WriteLine($"Olá, {nome}, tudo bem com você?");
+            // Somas básicas
+            Console.WriteLine("Insira um número: ");
+            float num1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Insira mais um número: ");
+            float num2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
         }
     }
 }

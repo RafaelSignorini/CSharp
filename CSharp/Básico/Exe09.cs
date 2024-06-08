@@ -6,11 +6,11 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Calculando descontos
-            Console.WriteLine("Insira o valor do produto: ");
-            float preco = float.Parse(Console.ReadLine());
+            // Reajuste salarial
+            Console.WriteLine("Insira o valor do seu salário: ");
+            float salario = float.Parse(Console.ReadLine());
 
-            Console.WriteLine($"O preço do produto originalmente é de {preco} reais, porém, com 5 por cento de desconto ele está por {preco * 0.95}");
+            Console.WriteLine($"O seu salário de {salario} reais recebera um aumento de {salario * 0.15}, totalizando {salario * 1.15} reais.");
         }
     }
 }

@@ -6,11 +6,15 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Parcelamento e porcentagem
-            Console.WriteLine("Insira o preco do seu produto: ");
-            float preco = float.Parse(Console.ReadLine());
+            // Aluguel de carros
+            Console.WriteLine("Insira quantos dias você passou coim o carro alugado: ");
+            int dias = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Este produto à vista está por {preco * 0.9}, porém parcelado em 2x está por {preco * 1.08}.");
+            Console.WriteLine("Insira a distância percorrida com o carro: ");
+            float distancia = float.Parse(Console.ReadLine());
+
+            double total = (distancia * 0.2) + (dias * 70);
+            Console.WriteLine($"O valor pelo tempo ficou {dias * 70} reais, e o valor da distância ficou {distancia * 0.2}, totalizando {total} reais.");
         }
     }
 }
