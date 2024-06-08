@@ -28,6 +28,7 @@ namespace CSharp.Básico
                 Console.WriteLine("15. Leitor da velocidade de carros");
                 Console.WriteLine("16. Par ou ímpar");
                 Console.WriteLine("17. Viagens longas");
+                Console.WriteLine("18. Ano bissexto");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -85,6 +86,9 @@ namespace CSharp.Básico
                             break;
                         case 17:
                             Exe17.Execute();
+                            break;
+                        case 18:
+                            Exe18.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
