@@ -16,6 +16,7 @@ namespace CSharp.Básico
                 Console.WriteLine("3. Variáveis interativas");
                 Console.WriteLine("4. Scripts");
                 Console.WriteLine("5. Somas básicas");
+                Console.WriteLine("6. Média aritmética");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -37,6 +38,9 @@ namespace CSharp.Básico
                             break;
                         case 5:
                             Exe05.Execute();
+                            break;
+                        case 6:
+                            Exe06.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");

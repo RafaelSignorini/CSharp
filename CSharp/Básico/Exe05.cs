@@ -6,6 +6,7 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
+            // Somas básicas
             Console.WriteLine("Insira um número: ");
             float num1 = float.Parse(Console.ReadLine());
 
