@@ -12,19 +12,20 @@ namespace CSharp.Básico
             {
                 Console.WriteLine("Escolha um exercício para executar: ");
                 Console.WriteLine("1. Básico");
-                Console.WriteLine("2. Variáveis");
-                Console.WriteLine("3. Variáveis interativas");
-                Console.WriteLine("4. Scripts");
-                Console.WriteLine("5. Somas básicas");
-                Console.WriteLine("6. Média aritmética");
-                Console.WriteLine("7. Tabuada");
-                Console.WriteLine("8. Pintando a parede");
-                Console.WriteLine("9. Calculando descontos");
-                Console.WriteLine("10. Reajuste salarial");
-                Console.WriteLine("11. Parcelamento e porcentagem");
-                Console.WriteLine("12. Aluguel de carros");
-                Console.WriteLine("13. Condições simples, nome");
-                Console.WriteLine("14. Condições simples, nota");
+                Console.WriteLine("2. Variáveis interativas");
+                Console.WriteLine("3. Scripts");
+                Console.WriteLine("4. Somas básicas");
+                Console.WriteLine("5. Média aritmética");
+                Console.WriteLine("6. Tabuada");
+                Console.WriteLine("7. Pintando a parede");
+                Console.WriteLine("8. Calculando descontos");
+                Console.WriteLine("9. Reajuste salarial");
+                Console.WriteLine("10. Parcelamento e porcentagem");
+                Console.WriteLine("11. Aluguel de carros");
+                Console.WriteLine("12. Condições simples, nome");
+                Console.WriteLine("13. Condições simples, nota");
+                Console.WriteLine("14. Jogo do adivinha");
+                Console.WriteLine("15. Leitor da velocidade de carros");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -73,6 +74,9 @@ namespace CSharp.Básico
                             break;
                         case 14:
                             Exe14.Execute();
+                            break;
+                        case 15:
+                            Exe15.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
