@@ -32,6 +32,7 @@ namespace CSharp.Básico
                 Console.WriteLine("19. Maior e menor número");
                 Console.WriteLine("20. Aumento de salários");
                 Console.WriteLine("21. Retas de um triângulo");
+                Console.WriteLine("22. Conversor de medidas");
                 Console.Write("Insira o número do exercício: ");
 
                 // Verifica se a entrada do usuário é um número inteiro válido
@@ -101,6 +102,9 @@ namespace CSharp.Básico
                             break;
                         case 21:
                             Exe21.Execute();
+                            break;
+                        case 22:
+                            Exe22.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
