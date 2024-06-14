@@ -1,6 +1,7 @@
 ﻿using System;
+using CSharp.Básico;
 
-namespace CSharp.Básico
+namespace CSharp
 {
     class Program
     {
