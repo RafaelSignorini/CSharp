@@ -6,11 +6,14 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Calculando descontos
-            Console.WriteLine("Insira o valor do produto: ");
-            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o comprimento da parede");
+            float comprimento = float.Parse(Console.ReadLine());
 
-            Console.WriteLine($"O preço do produto originalmente é de {preco} reais, porém, com 5 por cento de desconto ele está por {preco * 0.95}");
+            Console.WriteLine("Insira a altura da parede");
+            float altura = float.Parse(Console.ReadLine());
+
+            float total = (comprimento * altura) / 2;
+            Console.WriteLine($"O total de tinta a ser gasto sera de {total} metros quadrados.");
         }
     }
 }

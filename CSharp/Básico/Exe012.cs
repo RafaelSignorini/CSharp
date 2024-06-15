@@ -6,15 +6,10 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Condições simples, nome
-            Console.WriteLine("Insira seu nome: ");
-            string nome = Console.ReadLine();
-
-            Console.WriteLine($"Olá, {nome}. Tudo bem?");
-            if (nome == "Stefany") // Condição
-            {
-                Console.WriteLine("Seu nome é lindo.");
-            }
+            Console.WriteLine("Insira o valor do produto que quer comprar: ");
+            double valor = double.Parse(Console.ReadLine());
+            double preco = valor * 0.95;
+            Console.WriteLine($"A loja está com 5 por cento de desconto, o preço do produto ficou por {preco} reais.");
         }
     }
 }

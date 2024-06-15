@@ -6,29 +6,14 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Leitor da velocidade de carros
-            do
-            {
-                Console.WriteLine("Insira a velocidade do seu carro: ");
-                float velocidade = float.Parse(Console.ReadLine());
-                float multa = (velocidade - 200) * 80;
+            Console.WriteLine("Insira quantos dias você passou coim o carro alugado: ");
+            int dias = int.Parse(Console.ReadLine());
 
-                if (velocidade < 0)
-                {
-                    Console.WriteLine("Velocidade inserida inválida, tente novamente.");
-                    continue;
-                }
-                if (velocidade > 200)
-                {
-                    Console.WriteLine($"Você estava acima da velocidade permitida, pague {multa} reais de multa.");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Você estava dentro da velocidade permitida, tenha um bom dia.");
-                    break;
-                }
-            } while (true);
+            Console.WriteLine("Insira a distância percorrida com o carro: ");
+            float distancia = float.Parse(Console.ReadLine());
+
+            double total = (distancia * 0.15) + (dias * 60);
+            Console.WriteLine($"O valor total do alguel foi de {total} reais.");
         }
     }
 }

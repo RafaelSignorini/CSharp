@@ -6,15 +6,12 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Pintando a parede
-            Console.WriteLine("Insira o comprimento da parede");
-            float comprimento = float.Parse(Console.ReadLine());
-
-            Console.WriteLine("Insira a altura da parede");
-            float altura = float.Parse(Console.ReadLine());
-
-            float total = (comprimento * altura) / 2;
-            Console.WriteLine($"O total de tinta a ser gasto sera de {total} metros quadrados.");
+            Console.WriteLine("Insira sua primeira nota: ");
+            int nota1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira sua segunda nota: ");
+            int nota2 = int.Parse(Console.ReadLine());
+            float media = (nota1 + nota2) / 2;
+            Console.WriteLine($"A média das suas notas é {media}");
         }
     }
 }

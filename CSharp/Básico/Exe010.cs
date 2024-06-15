@@ -6,11 +6,10 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Parcelamento e porcentagem
-            Console.WriteLine("Insira o preco do seu produto: ");
-            float preco = float.Parse(Console.ReadLine());
-
-            Console.WriteLine($"Este produto à vista está por {preco * 0.9}, porém parcelado em 2x está por {preco * 1.08}.");
+            Console.WriteLine("Insira um valor em reais: ");
+            double reais = double.Parse(Console.ReadLine());
+            double dolar = reais / 3.27;
+            Console.WriteLine($"Com {reais} reais, você pode comprar {dolar} dolares.");
         }
     }
 }
