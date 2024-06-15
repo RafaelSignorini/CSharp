@@ -42,19 +42,19 @@ namespace CSharp
                     switch (escolha)
                     {
                         case 1:
-                            Exe01.Execute();
+                            Exe001.Execute();
                             break;
                         case 2:
-                            Exe02.Execute();
+                            Exe002.Execute();
                             break;
                         case 3:
-                            Exe03.Execute();
+                            Exe003.Execute();
                             break;
                         case 4:
-                            Exe04.Execute();
+                            Exe004.Execute();
                             break;
                         case 5:
-                            Exe05.Execute();
+                            Exe005.Execute();
                             break;
                         case 6:
                             Exe06.Execute();
