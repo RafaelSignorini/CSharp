@@ -2,7 +2,7 @@
 
 namespace CSharp.Básico
 {
-    class Exe20
+    class Exe020
     {
         public static void Execute()
         {

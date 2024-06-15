@@ -57,55 +57,55 @@ namespace CSharp
                             Exe005.Execute();
                             break;
                         case 6:
-                            Exe06.Execute();
+                            Exe006.Execute();
                             break;
                         case 7:
-                            Exe07.Execute();
+                            Exe007.Execute();
                             break;
                         case 8:
-                            Exe08.Execute();
+                            Exe008.Execute();
                             break;
                         case 9:
-                            Exe09.Execute();
+                            Exe009.Execute();
                             break;
                         case 10:
-                            Exe10.Execute();
+                            Exe010.Execute();
                             break;
                         case 11:
-                            Exe11.Execute();
+                            Exe011.Execute();
                             break;
                         case 12:
-                            Exe12.Execute();
+                            Exe012.Execute();
                             break;
                         case 13:
-                            Exe13.Execute();
+                            Exe013.Execute();
                             break;
                         case 14:
-                            Exe14.Execute();
+                            Exe014.Execute();
                             break;
                         case 15:
-                            Exe15.Execute();
+                            Exe015.Execute();
                             break;
                         case 16:
-                            Exe16.Execute();
+                            Exe016.Execute();
                             break;
                         case 17:
-                            Exe17.Execute();
+                            Exe017.Execute();
                             break;
                         case 18:
-                            Exe18.Execute();
+                            Exe018.Execute();
                             break;
                         case 19:
-                            Exe19.Execute();
+                            Exe019.Execute();
                             break;
                         case 20:
-                            Exe20.Execute();
+                            Exe020.Execute();
                             break;
                         case 21:
-                            Exe21.Execute();
+                            Exe021.Execute();
                             break;
                         case 22:
-                            Exe22.Execute();
+                            Exe022.Execute();
                             break;
                         case 0:
                             Console.WriteLine("Saindo...");
