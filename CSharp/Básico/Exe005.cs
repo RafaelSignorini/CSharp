@@ -6,15 +6,9 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // Média aritmética
-            Console.WriteLine("Insira um valor inteiro entre 0 e 10: ");
-            int num1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Insira mais um valor inteiro entre 0 e 10: ");
-            int num2 = int.Parse(Console.ReadLine());
-
-            float media = (num1 + num2) / 2;
-            Console.WriteLine($"A média aritmética dos dois valores é {media}");
+            Console.WriteLine("Insira um valor: ");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine($"O sucessor de {num} é {num + 1} e o antecessor é {num - 1}");
         }
     }
 }
