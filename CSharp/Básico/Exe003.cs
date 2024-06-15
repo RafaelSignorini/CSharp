@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace CSharp.Básico
 {
@@ -6,10 +7,12 @@ namespace CSharp.Básico
     {
         public static void Execute()
         {
-            // formatted strings / fstrings
-            Console.WriteLine("Insira seu nome: ");
-            string nome = Console.ReadLine();
-            Console.WriteLine($"Olá, {nome}, tudo bem com você?");
+            Console.WriteLine("Insira um valor: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira outro valor: ");
+            int num2 = int.Parse(Console.ReadLine());
+            int soma = num1 + num2;
+            Console.WriteLine($"A soma entre {num1} e {num2} vale {soma}");
         }
     }
 }
